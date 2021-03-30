@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "757126220616",
+    "firebase_url": "https://tourproject-b38f7.firebaseio.com",
+    "project_id": "tourproject-b38f7",
+    "storage_bucket": "tourproject-b38f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757126220616:android:d1246d0b261f5cae16417d",
+        "android_client_info": {
+          "package_name": "com.example.tourpoject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757126220616-c5kfpi2076ditliqnelukjigdpt7gn8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ4LBfscE2gqQa6yPieM4LNGQvs1xVEQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757126220616-c5kfpi2076ditliqnelukjigdpt7gn8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757126220616:android:2b3e1e4d5bf4557e16417d",
+        "android_client_info": {
+          "package_name": "com.example.tourproject11111"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757126220616-c5kfpi2076ditliqnelukjigdpt7gn8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ4LBfscE2gqQa6yPieM4LNGQvs1xVEQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757126220616-c5kfpi2076ditliqnelukjigdpt7gn8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".TourDetails">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/purple_700"
+            app:contentPadding="5dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Budget"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:padding="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/white" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total Budget :"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            tools:text="10000.0"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:id="@+id/table_totalBudgetId"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total Expense:"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            tools:text="1000.0"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:id="@+id/table_totalExpenseId"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total Remaining :"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            tools:text="100.0"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:id="@+id/table_totalRemainingtId"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <Button
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Add Expense"
+                            android:textColor="@color/white"
+                            android:id="@+id/addExpenseButtonId"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="2dp" />
+
+                        <Button
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="View Expense"
+                            android:id="@+id/viewExpenseButtonId"
+                            android:textStyle="bold"
+                            android:padding="10dp" />
+                    </TableRow>
+                </TableLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/details_moment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Moments"
+                        android:drawableLeft="@android:drawable/ic_input_add"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:padding="10dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Image_RecycleViewId"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</layout>

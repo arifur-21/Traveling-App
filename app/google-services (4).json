@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "904363589179",
+    "firebase_url": "https://my-frist-project-cedd8.firebaseio.com",
+    "project_id": "my-frist-project-cedd8",
+    "storage_bucket": "my-frist-project-cedd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904363589179:android:23250b29b1837976bd661e",
+        "android_client_info": {
+          "package_name": "com.example.tourproject11111"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904363589179-sjt0gmbjknjojh77tf6n11ae7c84on51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxxJ0EI1qC6LBUk81Iy2AqL9q1OZSVrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904363589179-sjt0gmbjknjojh77tf6n11ae7c84on51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904363589179:android:b49abb9ff81964dabd661e",
+        "android_client_info": {
+          "package_name": "com.example.userregistratio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904363589179-p253927641ib24ccg242qtq5fep4tq5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.userregistratio",
+            "certificate_hash": "95f1b7a3f195598301a6f96705c21ebf876f66ca"
+          }
+        },
+        {
+          "client_id": "904363589179-sjt0gmbjknjojh77tf6n11ae7c84on51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxxJ0EI1qC6LBUk81Iy2AqL9q1OZSVrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904363589179-sjt0gmbjknjojh77tf6n11ae7c84on51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
